@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: DeepLearning
-slug: deeplearning
+slug: DeepLearning
 category: ML
 menu: false
 order: 1
