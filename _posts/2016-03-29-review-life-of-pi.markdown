@@ -2,8 +2,8 @@
 layout: post
 title:  "[리뷰]파이이야기"
 subtitle:   "[리뷰]파이이야기"
-categories: review
-tags: movie
+categories: ROS
+tags: 1
 ---
 
 

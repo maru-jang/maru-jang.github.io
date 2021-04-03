@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 7
 description: >
-  머신러닝
+  머신러닝 관련
 ---
