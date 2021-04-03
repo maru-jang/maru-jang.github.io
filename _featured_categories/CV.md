@@ -1,7 +1,7 @@
 ---
 layout: list
 title: CV
-slug: computer vision
+slug: CV
 menu: true
 submenu: true
 order: 6
