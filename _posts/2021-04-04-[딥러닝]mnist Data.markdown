@@ -12,7 +12,7 @@ tags: 딥러닝
 ### 서론
 
 딥러닝의 Hello, World라고 할 수 있는 mnist Dataset을 tensorflow를 통해 학습을 해보면서 one-hot encoding, GradientDescent알고리즘, sigmoid 함수를 좀 더 피부에 와닿게 이해해보도록 할 수 있을 것이다.<br/>
-<img src="/assets/img/딥러닝/mnist1.png" title="mnist"/>
+<img src="/assets/img/딥러닝/mnist1.PNG" title="mnist"/>
 이처럼 사람마다 필체가 다른데 이러한 수기로 쓴 숫자를 판별할 수 있는 모델을 만드려고 한다.<br/>
 MNIST Dataset을 이용하여 tensorflow로 학습시키고 숫자를 판별할 수 있는 로지스틱 모형을 개발해보자.<br/>
 
