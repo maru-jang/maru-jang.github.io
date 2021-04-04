@@ -29,7 +29,7 @@ Image Understanding : 이미지가 무엇인지 컴퓨터가 판단하는 과정
 
 ### 마하밴드 효과(Mach Band)
 
-<img src="/assets/img/영상처리/mach.png" width="90%" height="90%" title="Mach Band Effect"/> 
+<img src="/assets/img/영상처리/mach.png" title="Mach Band Effect"/> 
 
 위와 같이 명암의 대비가 되는 경계선 부근에서는 사람의 눈으로 인지하기에는 경계에서 색이 더 진해보이거나 밝게 보이는 현상이 일어난다.
 
@@ -43,7 +43,7 @@ Image Understanding : 이미지가 무엇인지 컴퓨터가 판단하는 과정
 
 이러한 샘플링한 아날로그 형태로 되어있는 데이터를 디지털화하는 것을 `Quantization`이라고 한다.
 
-![Sampling2](/assets/img/영상처리/샘플링2.png)
+![Sampling2](/assets/img/영상처리/샘플링2.png) {:.alignleft}
 Sampling과 Quantzation을 처리한 결과이다.
 
 ### Digital Image 표현
@@ -57,10 +57,10 @@ Saturation, Noise...<br/>
 
 ### Spatial and Intensity Resolution
 
-![Spatial Resolution](/assets/img/영상처리/화면해상도.png)
+![Spatial Resolution](/assets/img/영상처리/화면해상도.png) {:.alignleft}
 이미지 픽셀의 세분화가 해상도를 결정함.
 
-![Intensity Resolution](/assets/img/영상처리/밝기해상도.png)
+![Intensity Resolution](/assets/img/영상처리/밝기해상도.png) {:.alignleft}
 Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정함.
 
 ![해상도](/assets/img/영상처리/해상도.png)![해상도2](/assets/img/영상처리/해상도2.png)
@@ -73,30 +73,30 @@ Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정
 
 #### Neighborhood
 ![인접1](/assets/img/영상처리/인접1.png)
-4-neighborhood relation
+<center>4-neighborhood relation</center>
 ![인접2](/assets/img/영상처리/인접2.png)
-8-neighborhood relation
+<center>8-neighborhood relation</center>
 ![인접3](/assets/img/영상처리/인접3.png)
-Diagonal-neighborhood relation<br/>
+<center>Diagonal-neighborhood relation</center><br/>
 #### Distance Measure
 ![거리1](/assets/img/영상처리/거리1.png)
-일반적인 거리 계산의 방법
+<center>일반적인 거리 계산의 방법</center>
 ![거리2](/assets/img/영상처리/거리2.png)
-City Block Distance : 4-neighborhood relation과 관련이 있다.
+<center>City Block Distance : 4-neighborhood relation과 관련이 있다.</center>
 ![거리3](/assets/img/영상처리/거리3.png)
-Chessboard Distance : 8-neighborhood relation과 관련이 있다.
+<center>Chessboard Distance : 8-neighborhood relation과 관련이 있다.</center>
 
 
 
-```python
-수정중
-에버리징하면 노이즈가 줄어들어 .
-왜 사진은 2배3배되고 노이즈는 루트2배루트3배돼.
-스파셜 오퍼레이션, 프로세싱
-싱글 픽셀 오퍼레이션 : 밝기 거꾸로.
-네이버후드 오퍼레이션 : 인접픽셀 사용해서 계산. 예시는 인접픽셀 에버리지해서 뿌얘져??????
-지오메트릭 스파셜 트랜스폼 and 이미지 레지스트레이션
-: 스케일링. 로테이션 트랜스레이션 쉬어 쉬어 버티컬 호라이즌```
+
+>수정중
+>에버리징하면 노이즈가 줄어들어 .
+>왜 사진은 2배3배되고 노이즈는 루트2배루트3배돼.
+>스파셜 오퍼레이션, 프로세싱
+>싱글 픽셀 오퍼레이션 : 밝기 거꾸로.
+>네이버후드 오퍼레이션 : 인접픽셀 사용해서 계산. 예시는 인접픽셀 에버리지해서 뿌얘져??????
+>지오메트릭 스파셜 트랜스폼 and 이미지 레지스트레이션
+> :스케일링. 로테이션 트랜스레이션 쉬어 쉬어 버티컬 호라이즌
 
 
 
