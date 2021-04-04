@@ -5,25 +5,25 @@ subtitle:   "Digital Image Processing, Introduction and Digital Image Fundamenta
 categories: CV
 tags: 영상처리
 ---
->본 글은 Digital Image Processing을 학습하고 정리를 하여 남겨두기 위함입니다.
->출처 : Digital Image Processing, 3rd Edition, Gonzalez and Wood, Pearson (2010)
->고려대학교 윤창현 교수 디지털영상처리 강의 (http://www.kocw.net/home/cview.do?mty=p&kemId=1094777)
-> 수정중에 있음.
+>본 글은 Digital Image Processing을 학습하고 정리를 하여 남겨두기 위함입니다.  
+>출처 : Digital Image Processing, 3rd Edition, Gonzalez and Wood, Pearson (2010)  
+>고려대학교 윤창현 교수 디지털영상처리 강의 (http://www.kocw.net/home/cview.do?mty=p&kemId=1094777)  
+> 수정중에 있음.  
 
 ## 서론
 
 디지털 영상 처리의 기법
 
 Image Enhacement : 이미지를 눈에 보기 좋게 하기 위하여 처리하는 과정.
-	Enhancement에는 Spatial Domain과 Frequency Domain이 있음.
-	Spatial에는 Point와 Neighborhood 방법이 있음.
-	Frequency에는 Transform을 이용.
+  Enhancement에는 Spatial Domain과 Frequency Domain이 있음.
+  Spatial에는 Point와 Neighborhood 방법이 있음.
+  Frequency에는 Transform을 이용.
 
 Image Segmentation : 이미지를 적당히 나눠서 컴퓨터가 처리할 수 있게 구별하고 Label을 붙이는 과정.
 
 Image Understanding : 이미지가 무엇인지 컴퓨터가 판단하는 과정.
-	Recognition
-	(Artificial Inteligence 영상처리에선 논외)
+  Recognition
+  (Artificial Inteligence 영상처리에선 논외)
 
 ## Chapter 2. Digital Image Fundamentals
 
@@ -48,21 +48,19 @@ Sampling과 Quantzation을 처리한 결과이다.
 
 ### Digital Image 표현
 
-이미지는 기본적으로 M X N Matrix로 표현할 수 있다.
-L은 명암의 레벨을 binary로 나타낸다.
-M X N X L 이 이미지의 크기를 결정한다.
+이미지는 기본적으로 M X N Matrix로 표현할 수 있다.<br/>
+L은 명암의 레벨을 binary로 나타낸다.<br/>
+M X N X L 이 이미지의 크기를 결정한다.<br/>
 
-Saturation, Noise...
-
-<수정중>
-
+Saturation, Noise...<br/>
+'수정중'<br/>
 
 ### Spatial and Intensity Resolution
 
-![화면해상도](/assets/img/영상처리/화면해상도.jpg)
+![Spatial Resolution](/assets/img/영상처리/화면해상도.jpg)
 이미지 픽셀의 세분화가 해상도를 결정함.
 
-![밝기해상도](/assets/img/영상처리/밝기해상도.jpg)
+![Intensity Resolution](/assets/img/영상처리/밝기해상도.jpg)
 Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정함.
 
 ![해상도](/assets/img/영상처리/해상도.jpg)![해상도2](/assets/img/영상처리/해상도2.jpg)
@@ -92,7 +90,7 @@ Chessboard Distance : 8-neighborhood relation과 관련이 있다.
 
 
 
-'''<수정중>
+'''수정중
 에버리징하면 노이즈가 줄어들어 .
 왜 사진은 2배3배되고 노이즈는 루트2배루트3배돼.
 
