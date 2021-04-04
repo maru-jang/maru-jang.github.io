@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 6
 description: >
-  CV관련
+  Computer Vision관련
 ---
