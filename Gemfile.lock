@@ -73,11 +73,11 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
-  jekyll (~> 3.4)
-  jekyll-feed (~> 0.9)
-  jekyll-paginate (~> 1.1)
-  jekyll-redirect-from (~> 0.12)
-  jekyll-sitemap (~> 1.0)
+  jekyll
+  jekyll-feed
+  jekyll-paginate
+  jekyll-redirect-from
+  jekyll-sitemap
   kramdown-parser-gfm
 
 BUNDLED WITH
