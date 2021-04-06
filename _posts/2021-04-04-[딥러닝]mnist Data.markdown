@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "[딥러닝]Tensorflow-MNIST Data"
-subtitle:   "tensorflow,mnist"
+title: '[딥러닝]Tensorflow-MNIST Data'
+subtitle: 'tensorflow,mnist'
 categories: ML
 tags: 딥러닝
+published: true
 ---
 
 >본 글은 강의를 수강하고 복습을 하며 기록하기 위한 글입니다.<br/>
->출처 : 인하대학교 김승환 교수 2021-1학기 데이터마이닝 수업
+>출처 : 인하대학교 김승환 교수 2021-1학기 데이터마이닝 수업<br/>
+>수정중
 
 ### 서론
 
