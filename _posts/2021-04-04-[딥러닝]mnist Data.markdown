@@ -56,7 +56,7 @@ model = tf.keras.Sequential()
 model.add(layers.Dense(10, activation='softmax', input_dim=784))
 model.compile(optimizer='sgd',loss='categorical_crossentropy',metrics=['accuracy'])
 ```
-'''python
+```python
 model.fit(train_x, train_y_onehot, validation_data=(test_x, test_y_onehot), batch_size = 100, epochs=5)
 
 model.evaluate(train_x, train_y_onehot)
