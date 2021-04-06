@@ -36,9 +36,9 @@ print(np.max(train_x[0]), np.min(train_x[0]))
 ```
 training x 데이터셋은 60000X28X28의 3차원 Matrix로<br/>
 test x 데이터셋은 10000X28X28의 3차원 Matrix로 확인됨을 알 수 있다.<br/>
-자료는 서론에서의 그림과 같이 28*28의 픽셀에 0~255사이의 숫자로 표현된 형식임을 확인했다.<br/>
+자료는 서론에서의 그림과 같이 28*28의 픽셀에 0\~255사이의 숫자로 표현된 형식임을 확인했다.<br/>
 <br/>
-이제 하나의 이미지를 1~784의 독립변수로 만들고 표준화를 해준다.
+이제 하나의 이미지를 1\~784의 독립변수로 만들고 표준화를 해준다.
 ```python
 train_x = train_x.reshape(-1,28*28) 
 test_x = test_x.reshape(-1,28*28)
@@ -46,7 +46,7 @@ test_x = test_x.reshape(-1,28*28)
 train_x = train_x / 255 # 표준화
 test_x = test_x / 255
 ```
-그리고 이에 대한 레이블을 one-hot encoding 기법을 이용하여 0~9로 입력받아 학습을 수행할 것이다.
+그리고 이에 대한 레이블을 one-hot encoding 기법을 이용하여 0\~9로 입력받아 학습을 수행할 것이다.
 ```python
 train_y_onehot = to_categorical(train_y)
 test_y_onehot = to_categorical(test_y)
