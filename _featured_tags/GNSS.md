@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: GNSS
+title: Autonomous Drivng-GNSS
 slug: GNSS
 category: Autonomous Driving
 menu: false
