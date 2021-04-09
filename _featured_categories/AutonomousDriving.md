@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Autonomous Driving
-slug: Autonomous Driving
+title: AutonomousDriving
+slug: AutonomousDriving
 menu: true
 submenu: true
 order: 8
