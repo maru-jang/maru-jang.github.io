@@ -1,9 +1,10 @@
 ---
 layout: tag-blog
-title: 1
-slug: 1
+title: GNSS
+slug: GNSS
 category: Autonomous Driving
 menu: false
-order: 1
-header-img: "/img/vue-logo.png"
+order: GNSS
+header-img: /img/vue-logo.png
+published: true
 ---
