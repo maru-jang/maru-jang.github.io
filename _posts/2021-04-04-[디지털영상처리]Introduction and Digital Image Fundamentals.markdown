@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "[디지털영상처리]Introduction and Digital Image Fundamentals"
-subtitle:   "Digital Image Processing, Introduction and Digital Image Fundamentals"
+title: '[디지털영상처리]Introduction and Digital Image Fundamentals'
+subtitle: 'Digital Image Processing, Introduction and Digital Image Fundamentals'
 categories: CV
 tags: 영상처리
+published: true
 ---
 >본 글은 Digital Image Processing을 학습하고 정리를 하여 남겨두기 위함입니다.  
 >출처 : Digital Image Processing, 3rd Edition, Gonzalez and Wood, Pearson (2010)  
@@ -65,9 +66,9 @@ M X N X L 이 이미지의 크기를 결정한다.<br/>
 
 이미지 픽셀의 세분화가 해상도를 결정함.
 
-<img src="/assets/img/영상처리/밝기해상도.png" align="left" title="Intensity Resolution"><br/>
+<img src="/assets/img/영상처리/밝기해상도.png" align="left" title="Intensity Resolution">
 <br/>
-
+<br/>
 
 Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정함.
 
@@ -108,11 +109,3 @@ Negative 영상 처리 같은 것도 집합 연산, 논리 연산을 이용하�
 공간 연산(Spatial Operation)을 통해 블러링과 같은 처리를 할 수도 있다.
 
 벡터와 행렬 Matrix 연산을 통해 스케일링, 회전, 이동, 쏠리게 여러가지 처리를 할 수 있다.
-
-
-
-
-
-
-
-
