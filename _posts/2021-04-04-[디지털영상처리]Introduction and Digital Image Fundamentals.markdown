@@ -43,14 +43,7 @@ Image Understanding : 이미지가 무엇인지 컴퓨터가 판단하는 과정
 
 이러한 샘플링한 아날로그 형태로 되어있는 데이터를 디지털화하는 것을 `Quantization`이라고 한다.
 
-<img src="/assets/img/영상처리/샘플링2.png" align="left" title="sampling2">  
-<br/>
-
-
-
-
-
-
+<img src="/assets/img/영상처리/샘플링2.png" title="sampling2">  
 Sampling과 Quantzation을 처리한 결과이다.
 
 ### Digital Image 표현
@@ -63,16 +56,10 @@ M X N X L 이 이미지의 크기를 결정한다.<br/>
 
 ### Spatial and Intensity Resolution
 
-<img src="/assets/img/영상처리/화면해상도.png" align="left" title="Spatial Resolution"><br/>
-
-
-
+<img src="/assets/img/영상처리/화면해상도.png" title="Spatial Resolution"><br/>
 이미지 픽셀의 세분화가 해상도를 결정함.
 
-<img src="/assets/img/영상처리/밝기해상도.png" align="left" title="Intensity Resolution">
-<br/>
-<br/>
-
+<img src="/assets/img/영상처리/밝기해상도.png" title="Intensity Resolution">
 Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정함.
 
 ![해상도](/assets/img/영상처리/해상도.png)![해상도2](/assets/img/영상처리/해상도2.png)
