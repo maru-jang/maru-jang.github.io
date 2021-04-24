@@ -1,5 +1,9 @@
 ---
 published: false
+layout: post
+subtitle: 'Digital Image Processing, Intensity Transformations'
+categories: CV
+tags: 영상처리
 ---
 > 본 글은 디지털영상처리를 공부한 기록입니다.  
 > 출처 : 대학공개강의 전남대학교 홍성훈 교수 디지털영상처리 강의 ([www.kocw.net/home/cview.do?mty=p&kemId=320576)](http://www.kocw.net/home/cview.do?mty=p&kemId=320576)  
