@@ -98,7 +98,7 @@ Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정
 ![거리3](/assets/img/영상처리/거리3.png)
 <center>Chessboard Distance : 8-neighborhood relation과 관련이 있다.</center>
 
-###디지털 영상 처리의 Math Tools
+### 디지털 영상 처리의 Math Tools
 이미지는 행렬로 표현할 수 있으므로 행렬 연산이 가능하다.
 
 이미지의 선형 연산은 Additivity(덧셈성)와 Homogeneity(동차성)를 만족하는 Superposition이여야 선형 연산이 가능하다.
