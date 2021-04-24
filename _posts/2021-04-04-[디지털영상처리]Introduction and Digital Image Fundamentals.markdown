@@ -99,3 +99,9 @@ Negative 영상 처리 같은 것도 집합 연산, 논리 연산을 이용하�
 공간 연산(Spatial Operation)을 통해 블러링과 같은 처리를 할 수도 있다.
 
 벡터와 행렬 Matrix 연산을 통해 스케일링, 회전, 이동, 쏠리게 여러가지 처리를 할 수 있다.
+
+Image Transform(영상 변환)
+
+Statistical operations(확률적 방법)
+
+
