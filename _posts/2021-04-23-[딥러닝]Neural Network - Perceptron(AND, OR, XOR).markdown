@@ -92,10 +92,7 @@ for j in range(10):  # 10회 학습 (epoch)
     w[2] = w[2] + eta * x[i][2] * (t[i]-y)
   print(w)
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBCIHx%2Fbtq3mZjjfaJ%2Fut0ZiPVRj9zxLZ2pNRo0F1%2Fimg.png" align="left"><br/>
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBCIHx%2Fbtq3mZjjfaJ%2Fut0ZiPVRj9zxLZ2pNRo0F1%2Fimg.png"><br/>
 매우 간단한 모델이므로 6회의 학습만으로도 최적의 가중치를 찾아낸 것을 확인 할 수 있다.
 
 이 가중치를 이용하여 True 값과 학습된 가중치로 얻은 output 값이 같은지 확인해보자.
@@ -110,9 +107,7 @@ for i in range(4):
   y = np.append(y, y_i)
 print(y)
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9bZaY%2Fbtq3lSyyaoa%2FQkWHfTn9QOfAG9JkSIVkRK%2Fimg.png" align="left"><br/>
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9bZaY%2Fbtq3lSyyaoa%2FQkWHfTn9QOfAG9JkSIVkRK%2Fimg.png">
 
 위는 AND를 해결한 것으로 같은 방법으로 OR 문제도 해결 할 수 있다.
 
@@ -148,11 +143,7 @@ print("w1 : \n", w1)
 print("b1 : \n", b1)
 print("w2 : \n", w2)
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png" title="xor2" align="left">
-
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png" title="xor2">
 x와 실제 output 그리고 임의의 가중치 값 들을 확인하였다.
 
 ```python
@@ -160,10 +151,7 @@ h=sigmoid(np.dot(x,w1)+b1)
 y=sigmoid(np.dot(h,w2))
 y
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png" align="left">
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png">
 output이 아직은 엉터리로 나오는 것을 볼 수 있다.
 
 ```python
@@ -179,11 +167,7 @@ for i in range(1000):  # epoch : 1000
     b1=b1-lamda*deltaH
 print (y)
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F449iy%2Fbtq3mcRcopp%2FrVz10Gy0b3kcD8S53bGeO1%2Fimg.png" align="left">
-
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F449iy%2Fbtq3mcRcopp%2FrVz10Gy0b3kcD8S53bGeO1%2Fimg.png">
 학습된 가중치로 output을 구하였더니 XOR 실제 outpu 값인 0, 1, 1, 0과 근사한 값을 얻어낼 수 있었다.
 
 위는 BackPropagation으로 해결한 것으로 아직 Backpropagation에 대해 증명을 하지 않았으므로 설명은 생략하도록 하겠다.
