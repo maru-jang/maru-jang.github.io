@@ -85,8 +85,7 @@ model.evaluate(x, y)
 
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcARRCj%2Fbtq3mpDZZe6%2FZelhqWI6doLXxZrWAHaEDk%2Fimg.png" align="left"><br/>
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcARRCj%2Fbtq3mpDZZe6%2FZelhqWI6doLXxZrWAHaEDk%2Fimg.png"><br/>
 learnig rate : 0.5, epochs : 1000회, batch size : 4 일 때 loss 0.0626, accuracy 1.0이 나왔다.
 
 loss에 대해 언급만 하고 넘어가자면 loss가 0으로 가까워질 때까지 학습할수록 정확도가 높아진다.
@@ -96,8 +95,7 @@ predicted = model.predict(x)
 print(predicted)
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foe2YL%2Fbtq3mwXiQHB%2FsTH9IRzSPU24OpijDqGYK1%2Fimg.png" align="left"><br/>
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foe2YL%2Fbtq3mwXiQHB%2FsTH9IRzSPU24OpijDqGYK1%2Fimg.png"><br/>
 XOR은 간단한 모델로 따로 test set이 존재하지 않아 train set으로 test를 해보았다.
 
 테스트 결과 XOR Target Value와 근사한 결과가 나옴을 확인하였다.
