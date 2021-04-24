@@ -66,7 +66,7 @@ M X N X L 이 이미지의 크기를 결정한다.<br/>
 이미지 픽셀의 세분화가 해상도를 결정함.
 
 <img src="/assets/img/영상처리/밝기해상도.png" align="left" title="Intensity Resolution"><br/>
-
+<br/>
 
 
 Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정함.

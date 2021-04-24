@@ -92,7 +92,7 @@ for j in range(10):  # 10회 학습 (epoch)
     w[2] = w[2] + eta * x[i][2] * (t[i]-y)
   print(w)
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBCIHx%2Fbtq3mZjjfaJ%2Fut0ZiPVRj9zxLZ2pNRo0F1%2Fimg.png" align="left">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBCIHx%2Fbtq3mZjjfaJ%2Fut0ZiPVRj9zxLZ2pNRo0F1%2Fimg.png" align="left"><br/>
 
 
 
@@ -110,7 +110,7 @@ for i in range(4):
   y = np.append(y, y_i)
 print(y)
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9bZaY%2Fbtq3lSyyaoa%2FQkWHfTn9QOfAG9JkSIVkRK%2Fimg.png" align="left">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9bZaY%2Fbtq3lSyyaoa%2FQkWHfTn9QOfAG9JkSIVkRK%2Fimg.png" align="left"><br/>
 
 
 
@@ -120,7 +120,7 @@ print(y)
 
 **이제 hidden layer를 추가하여 다층 Perceptron을 Backpropagation으로 xor 문제를 해결해보자.**
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbB6X9w%2Fbtq3iLfMLr0%2Fp8AeNVBl8ZUwnBFgWyiYqk%2Fimg.png">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbB6X9w%2Fbtq3iLfMLr0%2Fp8AeNVBl8ZUwnBFgWyiYqk%2Fimg.png"><br/>
 
 XOR 문제는 먼저 input 값이 2개이고 output 값이 1개이다. 히든레이어는 한개, 노드는 3개로 임의로 정하였다.
 

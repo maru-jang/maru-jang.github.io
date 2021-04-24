@@ -59,7 +59,7 @@ Cost 함수에서 1/2을 하는 이유는 Cost 함수를 미분하여 가중치�
 
 즉, Backpropagation은 앞서 구한 delta 값을 이용하여 다음의 delta 값을 계산하는 원리로 Output Layer에서 Input Layer로 역 과정을 통해 가중치를 보정 전파 할 수 있음을 보인다. 이러한 과정을 통해 여러 층의 Hidden Layer도 문제없이 구할 수 있게 된다. 예시로 Hidden Layer가 3개인 Backpropagation을 아래에서 확인 할 수 있다.
 
-https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdKa3b%2Fbtq3nI3KaBZ%2F3bUV3CBNK6kkKQIb86FaK1%2Fimg.png
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdKa3b%2Fbtq3nI3KaBZ%2F3bUV3CBNK6kkKQIb86FaK1%2Fimg.png">
 
 이제 이 전 포스팅에서의 XOR 문제 해결에 대해 이해가 됐을 것이다.
 
@@ -85,7 +85,7 @@ model.evaluate(x, y)
 
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcARRCj%2Fbtq3mpDZZe6%2FZelhqWI6doLXxZrWAHaEDk%2Fimg.png" align="left">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcARRCj%2Fbtq3mpDZZe6%2FZelhqWI6doLXxZrWAHaEDk%2Fimg.png" align="left"><br/>
 
 learnig rate : 0.5, epochs : 1000회, batch size : 4 일 때 loss 0.0626, accuracy 1.0이 나왔다.
 
@@ -96,7 +96,7 @@ predicted = model.predict(x)
 print(predicted)
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foe2YL%2Fbtq3mwXiQHB%2FsTH9IRzSPU24OpijDqGYK1%2Fimg.png" align="left">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foe2YL%2Fbtq3mwXiQHB%2FsTH9IRzSPU24OpijDqGYK1%2Fimg.png" align="left"><br/>
 
 XOR은 간단한 모델로 따로 test set이 존재하지 않아 train set으로 test를 해보았다.
 
