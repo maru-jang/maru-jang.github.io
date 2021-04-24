@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-subtitle: 'Digital Image Processing, Intensity Transformations'
+subtitle: 'Digital Image Processing, Intensity Transformations, Spatial Filtering'
 categories: CV
 tags: 영상처리
 ---
