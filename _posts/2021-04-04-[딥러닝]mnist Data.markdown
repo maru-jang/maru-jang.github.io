@@ -30,11 +30,7 @@ from tensorflow.keras.utils import to_categorical
 mnist = datasets.mnist
 (train_x, train_y), (test_x, test_y) = mnist.load_data()
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fea7vSi%2Fbtq3niqLwLG%2FkeExwFy5a2CRJspZSWhgf0%2Fimg.png" align="left"><br/>
-
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fea7vSi%2Fbtq3niqLwLG%2FkeExwFy5a2CRJspZSWhgf0%2Fimg.png">
 데이터셋의 shape을 확인해보면
 
 ```python
@@ -56,11 +52,7 @@ test_x = test_x.reshape(-1,28*28)
 train_x = train_x / 255 # 표준화
 test_x = test_x / 255
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fl75wi%2Fbtq3n9Upc8v%2FdFzmAMpKVtnJcPkbAzSkzk%2Fimg.png" align="left"><br/>
-
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fl75wi%2Fbtq3n9Upc8v%2FdFzmAMpKVtnJcPkbAzSkzk%2Fimg.png">
 그리고 이에 대한 레이블을 one-hot encoding 기법을 이용하여 0~9로 입력받아 학습을 수행할 것이다.
 
 ```python
@@ -92,11 +84,7 @@ predicted = model.predict(test_x)
 
 predicted[0], test_y_onehot[0]
 ```
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbk89DX%2Fbtq3niqLxy3%2FlKGw5jruNWSq2elPbwSYYK%2Fimg.png" align="left"><br/>
-
-
-
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbk89DX%2Fbtq3niqLxy3%2FlKGw5jruNWSq2elPbwSYYK%2Fimg.png"><br/>
 정의된 모형을 6만개의 데이터를 총 5회 학습하여 (W, b) 모수를 구한다.
 
 학습에 사용되지 않은 Test Set을 이용하여 학습결과를 테스트 한다.
