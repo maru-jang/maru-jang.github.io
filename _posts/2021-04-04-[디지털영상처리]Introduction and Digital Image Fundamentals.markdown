@@ -43,7 +43,11 @@ Image Understanding : 이미지가 무엇인지 컴퓨터가 판단하는 과정
 
 이러한 샘플링한 아날로그 형태로 되어있는 데이터를 디지털화하는 것을 `Quantization`이라고 한다.
 
-<img src="/assets/img/영상처리/샘플링2.png" align="left" title="sampling2"><br/>
+<img src="/assets/img/영상처리/샘플링2.png" align="left" title="sampling2">  
+<br/>
+
+
+
 
 
 
