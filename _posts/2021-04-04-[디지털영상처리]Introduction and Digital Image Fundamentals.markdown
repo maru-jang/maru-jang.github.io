@@ -9,7 +9,6 @@ published: true
 >본 글은 Digital Image Processing을 학습하고 정리를 하여 남겨두기 위함입니다.  
 >출처 : Digital Image Processing, 3rd Edition, Gonzalez and Wood, Pearson (2010)  
 >고려대학교 윤창현 교수 디지털영상처리 강의 (<a>http://www.kocw.net/home/cview.do?mty=p&kemId=1094777</a>)  
-> 수정중에 있음.  
 
 ## 서론
 
