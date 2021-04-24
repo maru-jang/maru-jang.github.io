@@ -26,30 +26,32 @@ Input (x) 값에 각 가중치 (w) 를 곱하는데 가중치가 클수록 그 I
     <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwmSYi%2Fbtq3h6KUyDw%2Fz8Wf8oikK2A3ivpIHvIkqk%2Fimg.png" title="신경망2">    
     <figcaption>y = f(&sum;WiXi+b)</figcaption>
 </figure>
-[##_Image|kage@wmSYi/btq3h6KUyDw/z8Wf8oikK2A3ivpIHvIkqk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|y = f(&sum;WiXi+b)||_##]
 
 활성함수를 Sigmoid로 사용 할 경우, 신경망 모형은 Logistic Regression 모형이 된다.
 
-(Logistic Regression에 대한 설명이 필요하다면 추후 글을 작성)
-
-[##_Image|kage@FR3KG/btq3hu6AIX6/Y7sKc5yE6ieqs0yaVi27dk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|활성함수가 Sigmoid인 Nerual Network 모형||_##]
+<figure>
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFR3KG%2Fbtq3hu6AIX6%2FY7sKc5yE6ieqs0yaVi27dk%2Fimg.png"> 
+    <figcaption>활성함수가 Sigmoid인 Nerual Network 모형</figcaption>
+</figure>
 
 ### Perceptron - OR, AND, XOR
 
 초기 Nerual Network(신경망) 모형은 Linear한 모형으로도 or, and 문제가 해결이 가능하나 xor 문제는 해결이 불가능하여 xor 문제를 어떻게 푸는냐가 관건이였다.
-
-[##_Image|kage@b5HDFy/btq3htGo8hS/1E53t4Fmmgp7DOBBZeaVz0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb5HDFy%2Fbtq3htGo8hS%2F1E53t4Fmmgp7DOBBZeaVz0%2Fimg.png
 
 1969년 Hidden Layer를 사용하는 Perceptron을 사용해 xor 문제를 풀 수 있음을 증명하였는데 문제는 다층 perceptron(Multiple Layer Perceptron, MLP)의 가중치(w)는 어떻게 구하냐는 것이다.
 
-[##_Image|kage@sPFki/btq3itlJui4/9lHKxliB4LvOgNVer1DQB0/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|두개의 Linear 모형으로 xor 문제 해결||_##]
+<figure>
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsPFki%2Fbtq3itlJui4%2F9lHKxliB4LvOgNVer1DQB0%2Fimg.png">
+    <figcaption>두 개의 Linear 모형으로 XOR 문제 해결</figcaption>
+</figure>
 
 1979년 Backpropagation 알고리즘이 나와 다층 perceptron의 가중치를 구할 수 있게되었다.
 
 **그렇다면 먼저 or, and 문제를 단층 perceptron으로 해결해보자.**
 
-[##_Image|kage@3Lnc8/btq3mNJWs2n/MAPbnfxxJUhrp01VbUEkq1/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##][##_Image|kage@bjpsok/btq3h5MhldG/SEYXAWuZ57sox8ut98gNjK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3Lnc8%2Fbtq3mNJWs2n%2FMAPbnfxxJUhrp01VbUEkq1%2Fimg.png">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbjpsok%2Fbtq3h5MhldG%2FSEYXAWuZ57sox8ut98gNjK%2Fimg.png">
 이러한 Neural Network 모델이 있을 때 우리는 가중치를 구해보아야 한다.
 
 아래 식에서 t는 true 값(output의 실제값)이고 f(net)은 네트워크를 통해 계산된 y값(output 추정값)이다.
@@ -62,7 +64,10 @@ w는 아래의 식으로 t - f(net)의 오차가 양수이면 f(net)이 커져�
 
 학습률은 w값이 목적값으로 가는 속도를 조절하는 상수역할을 하는데 에타가 크면 빨리 해로 가지만 정확한 해를 구하기 어렵고 에타가 작으면 해로 느리게 가지만 정교한 해를 구할 수 있다.
 
-[##_Image|kage@bCYuXs/btq3hvK9Etc/7sah0sN4rug6mAQvxKwImK/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|단층 perceptron||_##]
+<figure>
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbCYuXs%2Fbtq3hvK9Etc%2F7sah0sN4rug6mAQvxKwImK%2Fimg.png">
+    <figcaption>단층 perceptron</figcaption>
+</figure>
 
 ```python
 import numpy as np
@@ -87,8 +92,9 @@ for j in range(10):  # 10회 학습 (epoch)
     w[2] = w[2] + eta * x[i][2] * (t[i]-y)
   print(w)
 ```
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBCIHx%2Fbtq3mZjjfaJ%2Fut0ZiPVRj9zxLZ2pNRo0F1%2Fimg.png" align="left">
 
-[##_Image|kage@BCIHx/btq3mZjjfaJ/ut0ZiPVRj9zxLZ2pNRo0F1/img.png|alignLeft|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
 
 매우 간단한 모델이므로 6회의 학습만으로도 최적의 가중치를 찾아낸 것을 확인 할 수 있다.
 
@@ -104,8 +110,9 @@ for i in range(4):
   y = np.append(y, y_i)
 print(y)
 ```
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9bZaY%2Fbtq3lSyyaoa%2FQkWHfTn9QOfAG9JkSIVkRK%2Fimg.png" align="left">
 
-[##_Image|kage@9bZaY/btq3lSyyaoa/QkWHfTn9QOfAG9JkSIVkRK/img.png|alignLeft|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
 
 위는 AND를 해결한 것으로 같은 방법으로 OR 문제도 해결 할 수 있다.
 
@@ -113,7 +120,7 @@ print(y)
 
 **이제 hidden layer를 추가하여 다층 Perceptron을 Backpropagation으로 xor 문제를 해결해보자.**
 
-[##_Image|kage@bB6X9w/btq3iLfMLr0/p8AeNVBl8ZUwnBFgWyiYqk/img.png|alignCenter|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbB6X9w%2Fbtq3iLfMLr0%2Fp8AeNVBl8ZUwnBFgWyiYqk%2Fimg.png">
 
 XOR 문제는 먼저 input 값이 2개이고 output 값이 1개이다. 히든레이어는 한개, 노드는 3개로 임의로 정하였다.
 
@@ -141,8 +148,8 @@ print("w1 : \n", w1)
 print("b1 : \n", b1)
 print("w2 : \n", w2)
 ```
-
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png" title="xor2" align="left">
+
 
 
 
@@ -153,8 +160,9 @@ h=sigmoid(np.dot(x,w1)+b1)
 y=sigmoid(np.dot(h,w2))
 y
 ```
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png" align="left">
 
-[##_Image|kage@crqF2z/btq3itzCkhi/AieiEougC5C9wnY3zqeO3k/img.png|alignLeft|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
 
 output이 아직은 엉터리로 나오는 것을 볼 수 있다.
 
@@ -171,8 +179,10 @@ for i in range(1000):  # epoch : 1000
     b1=b1-lamda*deltaH
 print (y)
 ```
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F449iy%2Fbtq3mcRcopp%2FrVz10Gy0b3kcD8S53bGeO1%2Fimg.png" align="left">
 
-[##_Image|kage@449iy/btq3mcRcopp/rVz10Gy0b3kcD8S53bGeO1/img.png|alignLeft|data-origin-width="0" data-origin-height="0" data-ke-mobilestyle="widthContent"|||_##]
+
+
 
 학습된 가중치로 output을 구하였더니 XOR 실제 outpu 값인 0, 1, 1, 0과 근사한 값을 얻어낼 수 있었다.
 

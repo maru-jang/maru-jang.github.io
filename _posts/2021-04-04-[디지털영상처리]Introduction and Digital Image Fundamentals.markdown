@@ -44,6 +44,9 @@ Image Understanding : 이미지가 무엇인지 컴퓨터가 판단하는 과정
 이러한 샘플링한 아날로그 형태로 되어있는 데이터를 디지털화하는 것을 `Quantization`이라고 한다.
 
 <img src="/assets/img/영상처리/샘플링2.png" align="left" title="sampling2"><br/>
+
+
+
 Sampling과 Quantzation을 처리한 결과이다.
 
 ### Digital Image 표현
@@ -52,15 +55,20 @@ Sampling과 Quantzation을 처리한 결과이다.
 L은 명암의 레벨을 binary로 나타낸다.<br/>
 M X N X L 이 이미지의 크기를 결정한다.<br/>
 
-Saturation, Noise...<br/>
-`수정중`<br/>
+(Saturation : 채도, Intensity : 명암도)
 
 ### Spatial and Intensity Resolution
 
 <img src="/assets/img/영상처리/화면해상도.png" align="left" title="Spatial Resolution"><br/>
+
+
+
 이미지 픽셀의 세분화가 해상도를 결정함.
 
 <img src="/assets/img/영상처리/밝기해상도.png" align="left" title="Intensity Resolution"><br/>
+
+
+
 Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정함.
 
 ![해상도](/assets/img/영상처리/해상도.png)![해상도2](/assets/img/영상처리/해상도2.png)
@@ -86,17 +94,22 @@ Contazation시 비트 수를 얼마나 세분화하느냐가 해상도를 결정
 ![거리3](/assets/img/영상처리/거리3.png)
 <center>Chessboard Distance : 8-neighborhood relation과 관련이 있다.</center>
 
+###디지털 영상 처리의 Math Tools
+이미지는 행렬로 표현할 수 있으므로 행렬 연산이 가능하다.
+
+이미지의 선형 연산은 Additivity(덧셈성)와 Homogeneity(동차성)를 만족하는 Superposition이여야 선형 연산이 가능하다.
+
+같은 공간의 다른 시간의 이미지를 평균을 하는 산술 연산 또한 가능하다. 평균을 하면 노이즈가 감소하는 효과를 보인다. 잡음 제거에서 평균을 많이 사용하는데 추후 알아보도록 하자.
+
+또한 빼기 연산, 곱하기 연산과 같은 모든 산술 연산을 통해 영상 처리를 하는 것이 있다.
+
+Negative 영상 처리 같은 것도 집합 연산, 논리 연산을 이용하여 하는 것이다.
+
+공간 연산(Spatial Operation)을 통해 블러링과 같은 처리를 할 수도 있다.
+
+벡터와 행렬 Matrix 연산을 통해 스케일링, 회전, 이동, 쏠리게 여러가지 처리를 할 수 있다.
 
 
-
-><a>수정중</a>
->에버리징하면 노이즈가 줄어들어 .
->왜 사진은 2배3배되고 노이즈는 루트2배루트3배돼.
->스파셜 오퍼레이션, 프로세싱
->싱글 픽셀 오퍼레이션 : 밝기 거꾸로.
->네이버후드 오퍼레이션 : 인접픽셀 사용해서 계산. 예시는 인접픽셀 에버리지해서 뿌얘져??????
->지오메트릭 스파셜 트랜스폼 and 이미지 레지스트레이션
-> :스케일링. 로테이션 트랜스레이션 쉬어 쉬어 버티컬 호라이즌
 
 
 

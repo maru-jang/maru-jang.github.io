@@ -15,18 +15,6 @@ published: true
 
 [2021.04.23 - \[ML/딥러닝\] - \[딥러닝\]Neural Network - Perceptron(AND, OR, XOR)](https://maru-jang.tistory.com/5)
 
-[
-
-\[딥러닝\]Neural Network - Perceptron(AND, OR, XOR)
-
-본 글은 강의를 수강하고 복습을 하며 추가로 공부하고 기록을 남기기 위한 글입니다. 출처 : 인하대학교 김승환 교수 2021-1학기 데이터마이닝 수업 서론 Neural Network는 인간의 뇌를 수학적 모형
-
-maru-jang.tistory.com
-
-
-
-](https://maru-jang.tistory.com/5)
-
 이전 글에서 Multi Layer Perceptron을 Backpropagation을 통해 가중치를 구하고 Output을 예측하는 것을 해보았다.
 
 이제 Backpropagation이 가중치를 구하는 방법은 어떻게 진행되는지 알아보고 tensorflow를 통해 다시 한번 XOR 문제를 해결해보자.
@@ -97,7 +85,7 @@ model.evaluate(x, y)
 
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcARRCj%2Fbtq3mpDZZe6%2FZelhqWI6doLXxZrWAHaEDk%2Fimg.png">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcARRCj%2Fbtq3mpDZZe6%2FZelhqWI6doLXxZrWAHaEDk%2Fimg.png" align="left">
 
 learnig rate : 0.5, epochs : 1000회, batch size : 4 일 때 loss 0.0626, accuracy 1.0이 나왔다.
 
@@ -108,7 +96,7 @@ predicted = model.predict(x)
 print(predicted)
 ```
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foe2YL%2Fbtq3mwXiQHB%2FsTH9IRzSPU24OpijDqGYK1%2Fimg.png">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foe2YL%2Fbtq3mwXiQHB%2FsTH9IRzSPU24OpijDqGYK1%2Fimg.png" align="left">
 
 XOR은 간단한 모델로 따로 test set이 존재하지 않아 train set으로 test를 해보았다.
 
