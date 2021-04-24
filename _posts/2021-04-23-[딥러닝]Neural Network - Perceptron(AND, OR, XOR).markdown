@@ -144,6 +144,8 @@ print("w2 : \n", w2)
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrqF2z%2Fbtq3itzCkhi%2FAieiEougC5C9wnY3zqeO3k%2Fimg.png" title="xor2" align="left">
 
+
+
 x와 실제 output 그리고 임의의 가중치 값 들을 확인하였다.
 
 ```python
